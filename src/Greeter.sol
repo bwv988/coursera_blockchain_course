@@ -4,11 +4,11 @@ contract Greeter  {
     string public yourName;  // data
     
     /* This runs when the contract is executed */
-   function Greeter() public {
+   constructor () public {
         yourName = "World";
     } 
     
-    function set(string name)public {
+    function set(string name) public {
         yourName = name;
     }
     
